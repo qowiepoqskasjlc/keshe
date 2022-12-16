@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background3" />
+    <TextView
+        android:id="@+id/xuexi"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/xuanzeceshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="68dp"
+        android:layout_toRightOf="@id/xuexi"
+        android:text="选择中文/英文"
+        android:textColor="#422801"
+        android:textSize="35dp" />
+    <Button
+        android:id="@+id/chinese"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/xuanzeceshi"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/chinese" />
+
+    <TextView
+        android:id="@+id/chinesetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chinese"
+        android:layout_marginLeft="60dp"
+        android:textSize="20sp"
+        android:text="中文测试" />
+    <Button
+        android:id="@+id/english"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_toRightOf="@id/chinese"
+        android:layout_below="@id/xuanzeceshi"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/english" />
+
+    <TextView
+        android:id="@+id/englishtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chinese"
+        android:layout_toRightOf="@id/chinese"
+        android:layout_marginLeft="70dp"
+        android:textSize="20sp"
+        android:text="English Test" />
+
+</RelativeLayout>

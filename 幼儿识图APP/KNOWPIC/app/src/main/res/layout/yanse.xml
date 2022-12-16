@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background2" />
+    <TextView
+        android:id="@+id/xuexi"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/renshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="28dp"
+        android:layout_toRightOf="@id/xuexi"
+        android:text="认识颜色"
+        android:textColor="#422801"
+        android:textSize="35dp" />
+    <Button
+        android:id="@+id/zhuye"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_toRightOf="@id/renshi"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/zhuye"/>
+    <Button
+        android:id="@+id/zuo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/xuexi"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/zuo"/>
+    <Button
+        android:id="@+id/you"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/xuexi"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@id/yanse"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/you"/>
+
+    <ImageView
+        android:id="@+id/yanse"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/xuexi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+    <Button
+        android:id="@+id/ch1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/yanse"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/bf" />
+    <TextView
+        android:id="@+id/readch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yanse"
+        android:layout_toRightOf="@id/ch1"
+        android:layout_marginTop="100dp"
+        android:text="中文发音"
+        android:textColor="#422801"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/eh1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/yanse"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="95dp"
+        android:layout_toRightOf="@id/readch1"
+        android:background="@drawable/bf" />
+    <TextView
+        android:id="@+id/readeh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yanse"
+        android:layout_toRightOf="@id/eh1"
+        android:layout_marginTop="100dp"
+        android:text="英文发音"
+        android:textColor="#422801"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/autoplay"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/ch1"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/auto_1" />
+    <TextView
+        android:id="@+id/autoplay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ch1"
+        android:layout_toRightOf="@id/autoplay"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="42dp"
+        android:text="自动播放"
+        android:textColor="#422801"
+        android:textSize="25dp" />
+
+</RelativeLayout>

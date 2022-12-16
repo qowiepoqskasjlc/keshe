@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="18dp"
+        android:text="功 能"
+        android:textSize="36dp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/shuzi"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/text"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shuzi" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/text"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/shuzi"
+        android:text="     认识数字"
+        android:textColor="#440A4E"
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/dongwu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/shuzi"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/dongwu" />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/shuzi"
+        android:layout_toRightOf="@id/dongwu"
+        android:text="     认识动物"
+        android:textColor="#440A4E"
+        android:textSize="32dp" />
+    <Button
+        android:id="@+id/jiaotong"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/dongwu"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/jiaotong"
+        />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/dongwu"
+        android:layout_toRightOf="@id/jiaotong"
+        android:text="     认识交通工具"
+        android:textColor="#440A4E"
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/shuiguo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/jiaotong"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shuiguo" />
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/jiaotong"
+        android:layout_toRightOf="@id/shuiguo"
+        android:text="     认识水果"
+        android:textColor="#440A4E"
+        android:textSize="32dp" />
+    <Button
+        android:id="@+id/yanse"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/shuiguo"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/yanse"
+        />
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/shuiguo"
+        android:layout_toRightOf="@id/yanse"
+        android:text="     认识颜色"
+        android:textColor="#440A4E"
+        android:textSize="32dp" />
+    <Button
+        android:id="@+id/xingzhuang"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/yanse"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/xingzhuang"
+        />
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/yanse"
+        android:layout_toRightOf="@id/xingzhuang"
+        android:text="     认识形状"
+        android:textColor="#440A4E"
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/ceshi"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/xingzhuang"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ceshi" />
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/xingzhuang"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/ceshi"
+        android:text="     测试一下"
+        android:textColor="#440A4E"
+        android:textSize="32dp" />
+
+</RelativeLayout>
