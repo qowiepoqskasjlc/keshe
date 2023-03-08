@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1672198471 source:c:\users\34417_94e1pvj\desktop\jwks\keshe8\webserver\main.cpp
+	<cstdio>
+	<string>
+	<fstream>
+	<WinSock2.h>
+	<iostream>
+

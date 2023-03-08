@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1672112292 source:c:\users\34417_94e1pvj\desktop\jwks\keshe2\qping\main.cpp
+	<iostream>
+	<winsock2.h>
+	<ws2tcpip.h>
+

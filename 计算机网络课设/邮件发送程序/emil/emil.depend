@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1671613665 source:c:\users\34417_94e1pvj\desktop\jwks\keshe6\emil\main.cpp
+	<iostream>
+	<string>
+	<WinSock2.h>
+
